@@ -27675,16 +27675,16 @@ if(!A.aT(r))A.R(A.aQ(r))
 s.a=new A.ap(r,!1)
 return}},
 aO0(a,b,c){var s,r,q,p,o,n,m,l,k,j,i=null
-if(B.d.q(b,"no date")){c.push("no date")
+if(B.d.q(b,"\bno date\b")){c.push("no date")
 a.b=a.a[0].a=null
-return}if(B.d.q(b,"tod")){c.push("tod")
+return}if(B.d.q(b,"\btod\b")){c.push("tod")
 s=a.a[0]
 r=$.es()
 r=A.b6(A.aA(r),A.az(r),A.bj(r),0,0,0,0,!1)
 if(!A.aT(r))A.R(A.aQ(r))
 s.a=new A.ap(r,!1)
 a.b=null
-return}if(B.d.q(b,"tom")){c.push("tom")
+return}if(B.d.q(b,"\btom\b")){c.push("tom")
 s=a.a[0]
 r=$.es()
 r=A.b6(A.aA(r),A.az(r),A.bj(r)+1,0,0,0,0,!1)
@@ -88012,7 +88012,7 @@ a6(){return new A.Sf(B.i)}}
 A.Sf.prototype={
 F(a){return B.k7}}
 A.LB.prototype={
-F(a){return new A.zb($.auh(),B.KK,"Jarvis 0.2.0+6",A.uz(null,A.aFG(B.an,B.Kp),!0),B.zg,null)}}
+F(a){return new A.zb($.auh(),B.KK,"Jarvis 0.2.0+7",A.uz(null,A.aFG(B.an,B.Kp),!0),B.zg,null)}}
 A.zr.prototype={
 a6(){return new A.Eo(B.i)}}
 A.Eo.prototype={
@@ -94421,7 +94421,7 @@ B.Tw=new A.i2("#toOrder",null,B.Rv,null,null,null,null,null,null)
 B.Tx=new A.i2("date",null,null,null,null,null,null,null,null)
 B.Ty=new A.i2("Ok",null,null,null,null,null,null,null,null)
 B.Tz=new A.i2("Order by ",null,null,null,null,null,null,null,null)
-B.TA=new A.i2("Jarvis 0.2.0+6",null,null,null,null,null,null,null,null)
+B.TA=new A.i2("Jarvis 0.2.0+7",null,null,null,null,null,null,null,null)
 B.TB=new A.i2("Cancel",null,null,null,null,null,null,null,null)
 B.TC=new A.OU(0,"system")
 B.zg=new A.OU(2,"dark")
